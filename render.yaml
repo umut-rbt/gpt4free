@@ -1,0 +1,11 @@
+# Exported from Render on 2025-03-25T18:00:13Z
+services:
+- type: web
+  name: gpt4free-1
+  runtime: python
+  repo: https://github.com/xtekky/gpt4free
+  plan: free
+  region: frankfurt
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 -m fastapi_server
+version: "1"

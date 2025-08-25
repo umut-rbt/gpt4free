@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PersonalAI</string>
+	<string name="mic">Mic</string>
+	<string name="send">Send</string>
+	<string name="listening">Listening…</string>
+</resources>
